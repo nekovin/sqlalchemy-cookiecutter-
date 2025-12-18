@@ -1,0 +1,11 @@
+{
+    "project_name": "My SQLAlchemy Project",
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+    "project_description": "A SQLAlchemy project",
+    "author_name": "Your Name",
+    "author_email": "your.email@example.com",
+    "python_version": "3.11",
+    "database_url": "sqlite:///./{{ cookiecutter.project_slug }}.db",
+    "use_alembic": ["yes", "no"],
+    "include_example_model": ["yes", "no"]
+}
